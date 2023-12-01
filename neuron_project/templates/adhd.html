@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{ url_for('main_page') }}">
+                    <img src="static/logo.jpeg" alt="Logo" style="height: 35px">
+                    <i>Know N Care</i>
+        </a>
+          <ul class="nav col-lg-auto me-lg-auto justify-content-center mb-md-0">
+              <li><a href="{{ url_for('main_page') }}" class="nav-link px-2 text-secondary">Home</a></li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Disorders
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="{{ url_for('autism_page') }}">Autism</a></li>
+                      <li><a class="dropdown-item" href="{{ url_for('adhd_page') }}">ADHD</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+    </header>
+    <br>
+
+    <div class="container col-xxl-8 px-4">
+        <div class="row flex-lg-row-reverse align-items-center py-5">
+          <div class="col">
+            <hr class="my-3">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ADHD (Attention-Deficit/Hyperactivity Disorder):</h1>
+            <p class="lead">
+            ADHD is a neurodevelopmental disorder characterized by persistent patterns of inattention, hyperactivity, and impulsivity, significantly impacting daily functioning. It typically manifests in childhood and can persist into adolescence and adulthood.
+              <br>What are the symptoms?</p>
+              <ul>
+                  <li class="lead">Careless Mistakes: Child makes frequent errors in schoolwork due to oversight.</li>
+                  <li class="lead">Easily Distracted: Difficulty maintaining focus; easily sidetracked.</li>
+                  <li class="lead">Difficulty Following Instructions: Struggles to adhere to given directions.</li>
+                  <li class="lead">Inattentiveness When Spoken to Directly:Appears not to listen when directly addressed.</li>
+                  <li class="lead">Organization Challenges: Difficulty organizing tasks and belongings</li>
+                  <li class="lead">Incomplete Work: Often fails to complete assignments or chores.</li>
+                  <li class="lead">Avoidance of Mental Effort:Resists tasks requiring sustained mental effort, including homework.</li>
+                  <li class="lead">Loss of Items: Frequently misplaces homework, books, jackets, backpacks, or sports equipment.</li>
+          </ul><hr>
+
+              <p class="lead">
+                  <strong>Consult a Doctor:</strong>
+If parents observe a persistent and significant presence of these behaviors, adversely affecting the child's academic, social, and daily life functioning, it is advisable to consult a healthcare professional for a comprehensive assessment and guidance on appropriate management strategies. Early intervention and support can contribute to better outcomes for children with ADHD.
+             </p>
+              <hr></div></div></div>
+
+    <h2 align="display-5 fw-bold text-body-emphasis lh-1 mb-3">How to identify ADHD</h2><br><br>
+
+    <hr class="my-4">
+
+        <div class="g1">
+    <h2>Simon Says</h2>
+   <p align="center" style="margin: 40px 90px; font-size:20px;"> •This classic game can help assess a child's ability to listen, follow instructions, and stay focused. Watch for impulsive behavior, such as jumping up without waiting for the "Simon says" command</p>
+
+    <div class="game">
+
+    <div class="imge">
+        <img src="static/simon-says.jpeg" class="rounded" alt="simon-says" style="height: 500px; width: 70%"></div><br>
+
+        <div class="char">
+        <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Age
+              </h5>
+              <p class="card-text">3 to 5 years</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Benefits</h5>
+              <p class="card-text">Memory, concentration and social skills.</p>
+            </div>
+          </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Suitable for
+
+              </h5>
+              <p class="card-text"> Speech and Language delay, learning disability</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Online Links
+              </h5>
+              <p class="card-text">https://www.mentalup.co/memory-matching-games</p>
+              <p class="card-text">https://www.memorymatching.com</p>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </div><hr><br>
+
+    <div class="g1">
+      <h2>Sorting and Matching Games</h2>
+     <p align="center" style="margin: 40px 90px; font-size:20px;"> •Provide children with a set of objects to sort or match. This activity can help assess attention to detail, organization, and the ability to complete a task.</p>
+
+      <div class="game">
+
+      <div class="imge">
+          <img src="static/sorting.jpeg" class="rounded" alt="Sorting Game" style="height: 500px; width: 70%"></div><br>
+
+          <div class="char">
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+              <div class="card-body">
+                <h5 class="card-title"> Age
+                </h5>
+                <p class="card-text">2 to 7 years</p>
+              </div>
+            </div>
+            <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+              <div class="card-body">
+                <h5 class="card-title">Benefits</h5>
+                <p class="card-text"> Cognitive skills, coordination.</p>
+              </div>
+            </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+              <div class="card-body">
+                <h5 class="card-title">Suitable for
+
+                </h5>
+                <p class="card-text">Cognitive skills, pattern recognition.</p>
+              </div>
+            </div>
+            <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+              <div class="card-body">
+                <h5 class="card-title"> Online Links
+                </h5>
+                <p class="card-text"> •https://www.mathmammoth.com/practice/sorting-game<br>
+                • https://plays.org/sorting-games/<br>
+                •https://www.twinkl.co.in/resources/kids-games-and-activities/parents-activites-games/parents-home-activities-sorting-games</p>
+
+
+              </div>
+            </div>
+          </div>
+      </div>
+      </div><br><hr><br><div class="g1">
+        <h2>Obstacle Course</h2>
+       <p align="center" style="margin: 40px 90px; font-size:20px;"> Create a simple indoor obstacle course with different activities like crawling under tables, jumping over cushions, or walking along a line. Observe how well the child follows the course, as well as any signs of impulsivity or difficulty with  .
+        <div class="game">
+
+        <div class="imge">
+            <img src="static/obstacle.jpeg" class="rounded" alt="Match The Card" style="height: 360px; width: 70%" ></div><br>
+
+            <div class="char">
+            <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+                <div class="card-body">
+                  <h5 class="card-title"> Age
+                  </h5>
+                  <p class="card-text">3 to 7 years</p>
+                </div>
+              </div>
+              <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+                <div class="card-body">
+                  <h5 class="card-title">Benefits</h5>
+                  <p class="card-text">Motor skills, teamwork, coordination.</p>
+                </div>
+              </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+                <div class="card-body">
+                  <h5 class="card-title">Suitable for
+
+                  </h5>
+                  <p class="card-text">Motor skills, teamwork, fun</p>
+                </div>
+              </div>
+
+            </div>
+        </div>
+        </div><br><hr><br>
+
+    <div class="g1">
+    <h2>Sensory Play</h2>
+   <p align="center" style="margin: 40px 90px; font-size:20px;"> •Set up sensory bins with items like rice, beans, sand, or textured fabrics. Allow the child to explore and manipulate these materials. Sensory play can help children with ADHD regulate their sensory input and improve focus.</p>
+    <div class="game">
+
+    <div class="imge">
+        <img src="static/sensory.jpeg" class="rounded" alt="simon-says" style="height: 500px; width: 70%"></div><br>
+
+        <div class="char">
+        <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Age
+              </h5>
+              <p class="card-text">2 to 7 years</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Benefits</h5>
+              <p class="card-text">Development, exploration, stimulation</p>
+            </div>
+          </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Suitable for
+
+              </h5>
+              <p class="card-text"> Child development, exploration, learning.</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Online Links
+              </h5>
+              <p class="card-text">https://youtu.be/yf-PEYRnMj4?feature=shared</p>
+              <p class="card-text">https://www.memorymatching.com</p>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </div><br><hr><br>
+
+    <div class="g1">
+    <h2>Yoga or Mindfullness</h2>
+   <p align="center" style="margin: 40px 90px; font-size:20px;"> Introduce simple yoga poses or mindfulness exercises tailored for young children. These activities can help improve self-regulation and attention. Use resources like children's yoga videos or simple guided meditation for kids.</p>
+
+    <div class="game">
+
+    <div class="imge">
+        <img src="static/yoga.jpeg" class="rounded" alt="simon-says" style="height: 500px; width: 70%"></div><br>
+
+        <div class="char">
+        <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Age
+              </h5>
+              <p class="card-text">All</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Benefits</h5>
+              <p class="card-text">Stress reduction, focus, well-being.</p>
+            </div>
+          </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Suitable for
+
+              </h5>
+              <p class="card-text">Child Mental Health</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Online Links
+              </h5>
+              <p class="card-text">https://youtu.be/wf5K3pP2IUQ?feature=shared</p>
+
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+   </div><br><hr><br><br>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+{% include "footer.html" %}

@@ -1,0 +1,21 @@
+
+.cnt{
+  margin: 120px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.cnt img{
+  border-radius: 130px;
+  border: 2px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-height: 400px;
+}

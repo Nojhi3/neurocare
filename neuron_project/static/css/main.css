@@ -1,0 +1,195 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+    padding: 5px 0;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.login{
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-right: 20px;
+    
+    border-radius: 30px;
+    border : 2px solid black;
+}
+
+.login select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.login select a option {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.right-section ul {
+    list-style: none;
+}
+
+.right-section ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.about {
+    position: relative;
+    color: black; /* Change the color to your desired default color */
+    text-decoration: none;
+}
+
+.about:hover {
+    color: blue; /* Change the color to your desired hover color */
+}
+
+.about:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid blue; /* Line color matching hover color */
+}
+
+.faqs {
+    position: relative;
+    color: black; /* Change the color to your desired default color */
+    text-decoration: none;
+   
+}
+
+.faqs:hover {
+    color: blue; /* Change the color to your desired hover color */
+}
+
+.faqs:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid blue; /* Line color matching hover color */
+    
+}
+.cmct {
+    position: relative;
+    color: black; /* Change the color to your desired default color */
+    text-decoration: none;
+   
+}
+
+.cmct:hover {
+    color: blue; /* Change the color to your desired hover color */
+}
+
+.cmct:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid blue; /* Line color matching hover color */
+    
+}
+
+.carousel{
+    margin: 60px;
+
+}
+
+.Services .rs1{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.card{
+    margin: 80px;
+    text-align: center;
+
+}
+.rs2{
+  margin-top: -50px;
+  margin-left: 290px;
+  display: flex;
+}
+.rs3{
+  margin-top: 0px;
+  margin-left: 0px;
+  display: flex;
+}
+h5{
+  font-weight: 700;
+}
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  border: 2px solid black;
+
+}
+
+.game{
+  display: flex;
+  margin-top: 50px;
+}
+.imge img{
+  width: 600px;
+  height: 500px;
+  margin-left: 270px ;
+  margin-right: 100px;
+  border: 1px solid black;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.carousel{
+  margin: 60px;
+}
+

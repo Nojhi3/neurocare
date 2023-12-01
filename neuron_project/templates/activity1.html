@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuron</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('main_page') }}">
+                        <img src="../static/logo.jpeg" alt="Logo" style="height: 35px">
+                        <i>Know N Care</i>
+            </a>
+          <ul class="nav col-lg-auto me-lg-auto justify-content-center mb-md-0">
+              <li><a href="{{ url_for('main_page') }}" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="{{ url_for('read_instructions') }}" class="nav-link px-2 text-secondary">Tips</a></li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link text-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Acivities
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{{ url_for('get_activity1') }}">Listening and Following Instructions</a></li>
+                      <li><a class="dropdown-item" href="{{ url_for('get_activity2') }}">Puzzle Play</a></li>
+                      <li><a class="dropdown-item" href="{{ url_for('get_activity3') }}">Drawing and Coloring</a></li>
+                  </ul>
+              </li>
+
+          </ul>
+      </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Activity 1 : Listening and Following Instructions:</h1>
+        <div class="row flex-lg-row-reverse align-items-center py-5">
+            <div class="ratio ratio-21x9">
+              <video class="w-100" autoplay loop controls><source src="/static/activity1video.mp4" type="video/mp4" loop class="hover-to-play w-100"/>
+              </video>
+            </div>
+          <div class="col">
+            <hr class="my-4">
+              <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">Instructions:</h1>
+            <p class="lead">•	Give the child simple instructions or play listening games, like "Simon says."<br>
+              •	Pay attention to their ability to understand and follow directions, which can reveal language comprehension and attention issues.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a type="button" href="{{ url_for('get_activity2') }}" class="btn btn-secondary btn-lg px-4 me-md-2">Next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+        <h3 class="display-8 fw-bold text-body-emphasis lh-1 mb-3">Candidates who showed symptoms</h3>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="child's name">
+          <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Class</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-secondary" type="submit">Submit</button>
+        <hr class="my-4">
+      </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+{% include "footer.html" %}

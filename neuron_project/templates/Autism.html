@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{ url_for('main_page') }}">
+                    <img src="static/logo.jpeg" alt="Logo" style="height: 35px">
+                    <i>Know N Care</i>
+        </a>
+          <ul class="nav col-lg-auto me-lg-auto justify-content-center mb-md-0">
+              <li><a href="{{ url_for('main_page') }}" class="nav-link px-2 text-secondary">Home</a></li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Disorders
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="{{ url_for('autism_page') }}">Autism</a></li>
+                      <li><a class="dropdown-item" href="{{ url_for('adhd_page') }}">ADHD</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+    </nav>
+
+        <div class="container col-xxl-8 px-4">
+        <div class="row flex-lg-row-reverse align-items-center py-5">
+          <div class="col">
+            <hr class="my-3">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Autism, or Autism Spectrum Disorder (ASD):</h1>
+            <p class="lead">
+                Autism, or Autism Spectrum Disorder (ASD), is a disorder pertaining to neuron development in brain.
+Symptoms include challenges in social interaction, communication, and repetitive behaviors.<br>
+The exact cause of autism is not known, but it's believed to involve a combination of genetic and environmental factors.
+            </p>
+              <ul>
+                  <li class="lead">Social Challenges:<br>
+                      - Trouble making friends and understanding emotions.<br>
+                      - Finds it hard to look others in the eye or share feelings.</li>
+                  <li class="lead">Communication Difficulties: <br>
+                      - Talks later than other kids or repeats words (echolalia). <br>
+                      - Struggles with gestures and tone of voice.</li>
+                  <li class="lead">Repetitive Behaviors: <br>
+                      - Does the same actions over and over, like hand-flapping. <br>
+                      - Doesn't like changes, wants things to stay the same.</li>
+                  <li class="lead">Sensory Sensitivities: <br>
+                      - Reacts strongly to lights, sounds, or textures. <br>
+                      - Likes or dislikes certain sensory experiences.</li>
+                  <li class="lead">Difficulty with Transitions:<br>
+                      - Gets upset with unexpected changes or new routines.</li>
+                  <li class="lead">Fixation on Specific Topics:<br>
+                      - Really focuses on specific interests, may not switch easily. <br>
+                      - Talks a lot about particular subjects.</li>
+                  <li class="lead">Loss of Items: Frequently misplaces homework, books, jackets, backpacks, or sports equipment.</li>
+          </ul><hr>
+
+              <p class="lead">
+                  <strong>Consult a Doctor:</strong>
+If parents observe a persistent and significant presence of these behaviors, adversely affecting the child's academic, social, and daily life functioning, it is advisable to consult a healthcare professional for a comprehensive assessment and guidance on appropriate management strategies. Early intervention and support can contribute to better outcomes for children with Autism.
+             </p>
+              <hr class="my-4">
+          </div>
+
+    </header>
+
+    <h2 align="display-5 fw-bold text-body-emphasis lh-1 mb-3">Indoor Games For Autism</h2><br>
+
+    <hr class="my-4">
+
+        <div class="g1">
+    <h2>Match The Card</h2>
+   <p align="center" style="margin: 40px 90px; font-size:20px;"> Memory matching cards are easily available in the market. You can play this simple game by arranging pairs of matching cards face down in random order. You and your child can take turns in flipping the cards. You need to flip twice, and if you get a matching pair, you can take the cards. If not, you continue playing until all the cards are matched.</p>
+
+    <div class="game">
+
+    <div class="imge">
+        <img src="static/memory-card.jpg" class="rounded" alt="Match The Card" style="height: 500px; width: 70%"></div><br>
+
+        <div class="char">
+        <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Age
+              </h5>
+              <p class="card-text">3 to 5 years</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Benefits</h5>
+              <p class="card-text">Memory, concentration and social skills.</p>
+            </div>
+          </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title">Suitable for
+
+              </h5>
+              <p class="card-text"> Speech and Language delay, learning disability</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+
+            <div class="card-body">
+              <h5 class="card-title"> Online Links
+              </h5>
+              <p class="card-text">https://www.mentalup.co/memory-matching-games</p>
+              <p class="card-text">https://www.memorymatching.com</p>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </div><hr><br>
+
+    <div class="g1">
+      <h2>Sorting items</h2>
+     <p align="center" style="margin: 40px 90px; font-size:20px;"> Give your child a plate with a variety of snacks that are different in shape, colour and texture. Ask your child to sort the items based on these characteristics. You can also use this sensory activity to teach basic maths skills such as addition and subtraction. Reward your child if he cooperates well with the activity by letting him eat the snack.
+
+     </p>
+  
+      <div class="game">
+      
+      <div class="imge">
+          <img src="static/sorting.jpg" class="rounded" alt="Sorting Game55" style="height: 500px; width: 70%"></div><br>
+          
+          <div class="char">
+          <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+            
+              <div class="card-body">
+                <h5 class="card-title"> Age 
+                </h5>
+                <p class="card-text">3 to 5 years</p>
+              </div>
+            </div>
+            <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+             
+              <div class="card-body">
+                <h5 class="card-title">Benefits</h5>
+                <p class="card-text"> Motor coordination and problem solving</p>
+              </div>
+            </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+              
+              <div class="card-body">
+                <h5 class="card-title">Suitable for
+  
+                </h5>
+                <p class="card-text">Motor coordination and problem solving </p>
+              </div>
+            </div>
+            <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+            
+              <div class="card-body">
+                <h5 class="card-title"> Online Links
+                </h5>
+                <p class="card-text"> •https://www.mathmammoth.com/practice/sorting-game<br>
+                • https://plays.org/sorting-games/<br>
+                •https://www.twinkl.co.in/resources/kids-games-and-activities/parents-activites-games/parents-home-activities-sorting-games</p>
+                
+
+              </div>
+            </div>
+          </div>
+      </div>
+      </div><br><hr><br><div class="g1">
+        <h2>Make some art</h2>
+       <p align="center" style="margin: 40px 90px; font-size:20px;"> Memory matching cards are easily available in the market. You can play this simple game by arranging pairs of matching cards face down in random order. You and your child can take turns in flipping the cards. You need to flip twice, and if you get a matching pair, you can take the cards. If not, you continue playing until all the cards are matched.</p>
+    
+        <div class="game">
+        
+        <div class="imge">
+            <img src="static/art.jpg" class="rounded" alt="Match The Card" style="height: 360px; width: 70%" ></div><br>
+            
+            <div class="char">
+            <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+              
+                <div class="card-body">
+                  <h5 class="card-title"> Age 
+                  </h5>
+                  <p class="card-text">3 to 5 years</p>
+                </div>
+              </div>
+              <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+               
+                <div class="card-body">
+                  <h5 class="card-title">Benefits</h5>
+                  <p class="card-text">Motor coordination, self-confidence and creativity. </p>
+                </div>
+              </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Suitable for
+    
+                  </h5>
+                  <p class="card-text">Autism Spectrum Disorders, Learning Disability, Cerebral Palsy</p>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        </div><hr><br><div class="g1">
+          <h2>Build structures           </h2>
+         <p align="center" style="margin: 40px 90px; font-size:20px;"> Blocks are a staple in every child's toy collection, so dump them out and start playing. 
+          Play dough is another method develop fine motor skills. When children are playing with the playdough, rolling, squishing or poking it, they are building strength in the muscles in their fingers and hands. This will help them in holding a pencil, coloring or manipulating items such as scissors, and buttons
+          </p>
+      
+          <div class="game">
+          
+          <div class="imge">
+              <img src="static/building.jpg" class="rounded" alt="Match The Card" style="height: 360px; width: 70%" ></div><br>
+              
+              <div class="char">
+              <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                
+                  <div class="card-body">
+                    <h5 class="card-title"> Age 
+                    </h5>
+                    <p class="card-text"> 3 to 5 years, 6 to 9 years
+                    </p>
+                  </div>
+                </div>
+                <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                 
+                  <div class="card-body">
+                    <h5 class="card-title">Benefits</h5>
+                    <p class="card-text">Creativity, problem-solving, social skills</p>
+                  </div>
+                </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                  
+                  <div class="card-body">
+                    <h5 class="card-title">Suitable for
+      
+                    </h5>
+                    <p class="card-text">Autism Spectrum Disorders, Learning Disability
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+          </div>
+          </div><br><hr><br>
+          <div class="g1">
+            <h2>Roll a dice            </h2>
+           <p align="center" style="margin: 40px 90px; font-size:20px;"> Board games like Snake and ladder are powerful tools for family bonding and learning social skills like sharing and taking turns. Choose a game of your child's liking and remember to tweak the rules to suit him with an aim to let him have fun.
+
+            </p>
+        
+            <div class="game">
+            
+            <div class="imge">
+                <img src="static/dice.jpg" class="rounded" alt="Match The Card" style="height: 450px; width: 70%" ></div><br>
+                
+                <div class="char">
+                <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title"> Age 
+                      </h5>
+                      <p class="card-text">6 to 9 years
+
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">Benefits</h5>
+                      <p class="card-text">Self-confidence and social skills
+                      </p>
+                    </div>
+                  </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Suitable for
+        
+                      </h5>
+                      <p class="card-text"> Autism Spectrum Disorders, Speech and Language Delay
+
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                  
+                    <div class="card-body">
+                      <h5 class="card-title"> Online Links
+                      </h5>
+                      <p class="card-text">https://www.teachingexpertise.com/classroom-ideas/dice-games/</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div><br><hr><br>
+      
+            <div class="g1">
+              <h2>Dance to a tune
+              </h2>
+             <p align="center" style="margin: 40px 90px; font-size:20px;">Dancing is great for self-expression and for keeping your child's body in shape. And all that tapping, stomping and twirling are so much fun. Games like Twister and Just Dance can help.Even for children who are wheelchair-bound, dancing can help in flexibility and improve upper body strength. When you incorporate music into it, your child's brain gets a boost of endorphins, the feel-good hormones, which will relax her. Also, by involving in a dance session with friends and family, your child can hone her social skills.
+
+  
+              </p>
+          
+              <div class="game">
+              
+              <div class="imge">
+                  <img src="static/dance.jpg" class="rounded" alt="Match The Card" style="height: 360px; width: 70%" ></div><br>
+                  
+                  <div class="char">
+                  <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                    
+                      <div class="card-body">
+                        <h5 class="card-title"> Age 
+                        </h5>
+                        <p class="card-text">3 to 5 years, 6 to 9 years
+
+  
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                     
+                      <div class="card-body">
+                        <h5 class="card-title">Benefits</h5>
+                        <p class="card-text">Confidence, spatial awareness, motor and social skills
+
+                        </p>
+                      </div>
+                    </div><div class="card text-bg-light mb-3 mt-0" style="max-width: 18rem;">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Suitable for
+          
+                        </h5>
+                        <p class="card-text"> Down Syndrome, Autism Spectrum Disorders, Physical disability, Cerebral Palsy, Learning Disability
+
+
+  
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <br><br>
+
+              </div>
+                </div><br>
+        
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+{% include "footer.html" %}
